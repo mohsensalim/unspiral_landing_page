@@ -299,17 +299,11 @@ export default function Waitlist() {
                     <div className="ml-form-successContent">
                       <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-br from-teal-100 to-cyan-100 text-teal-600 mb-6 shadow-lg">
                         <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                         </svg>
                       </div>
-                      <h4>Almost there!</h4>
-                      <p>Please check your inbox and confirm your email address to complete your subscription.</p>
-                      <div className="mt-6 flex items-center justify-center gap-2 text-slate-500 text-sm">
-                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        <span>Don&apos;t forget to check your spam folder</span>
-                      </div>
+                      <h4>You&apos;re all set!</h4>
+                      <p>Thanks for subscribing! You&apos;ll receive updates about new features, mindfulness tips, and more.</p>
                     </div>
                   </div>
                 </div>
