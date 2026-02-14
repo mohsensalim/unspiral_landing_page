@@ -32,6 +32,15 @@ export const metadata: Metadata = {
     "mindfulness app",
   ],
   authors: [{ name: "Unspiral" }],
+  icons: {
+    icon: [
+      { url: "/unspiral_landing_page/icon.png", sizes: "any" },
+      { url: "/unspiral_landing_page/icon.png", sizes: "32x32", type: "image/png" },
+      { url: "/unspiral_landing_page/icon.png", sizes: "192x192", type: "image/png" },
+    ],
+    shortcut: "/unspiral_landing_page/icon.png",
+    apple: { url: "/unspiral_landing_page/icon.png", sizes: "180x180", type: "image/png" },
+  },
   openGraph: {
     title: "Unspiral - Calm Your Mind, One Breath at a Time",
     description:
@@ -55,6 +64,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/unspiral_landing_page/icon.png" type="image/png" sizes="any" />
+        <link rel="apple-touch-icon" href="/unspiral_landing_page/icon.png" />
+      </head>
       <body className={`${inter.variable} font-sans antialiased`}>
         {children}
       </body>
