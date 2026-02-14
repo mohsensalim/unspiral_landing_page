@@ -55,12 +55,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <head>
-        <link rel="icon" type="image/png" sizes="32x32" href="/unspiral_landing_page/icon.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/unspiral_landing_page/icon.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/unspiral_landing_page/icon.png" />
-        <link rel="shortcut icon" href="/unspiral_landing_page/favicon.ico" />
-      </head>
       <body className={`${inter.variable} font-sans antialiased`}>
         {children}
       </body>
