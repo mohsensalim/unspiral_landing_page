@@ -28,16 +28,20 @@ export default function Footer() {
           {/* Links */}
           <div className="flex flex-wrap items-center justify-center gap-8 text-base">
             <a
-              href="#"
+              href="https://doc-hosting.flycricket.io/unspiral-calm-your-mind-privacy-policy/38e5dc8b-b0de-45bb-aefc-fcd51f2cc479/privacy"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-slate-400 hover:text-teal-400 transition-colors duration-300 font-medium"
             >
               Privacy Policy
             </a>
             <a
-              href="#"
+              href="https://doc-hosting.flycricket.io/unspiral-calm-your-mind-terms-of-use/981ccbeb-9af6-40cb-87cc-00718441a24c/terms"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-slate-400 hover:text-teal-400 transition-colors duration-300 font-medium"
             >
-              Terms of Service
+              Terms of Use
             </a>
             <a
               href="mailto:unspiral.calm@getunspiral.com"
